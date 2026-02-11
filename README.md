@@ -1,25 +1,28 @@
-# 🚲 Bike Sharing Dashboard
+# 🚲 Bike Sharing Data Dashboard
 
-Dashboard analisis data Bike Sharing menggunakan Streamlit.
+An interactive Bike Sharing data analysis dashboard built using Streamlit.  
+This project analyzes rental patterns, user behavior (casual vs registered), and provides rule-based bike usage recommendations.
 
 ---
 
 ## 📦 Setup Environment (Shell/Terminal)
 
-### 1️⃣ Clone Repository
+### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/username/nama-repo.git
-cd nama-repo
+git clone https://github.com/your-username/your-repository-name.git
+cd your-repository-name
 ```
 
-### 2️⃣ Buat Virtual Environment (Opsional tapi disarankan)
+---
+
+### 2️⃣ Create a Virtual Environment (Recommended)
 
 ```bash
 python -m venv venv
 ```
 
-Aktifkan virtual environment:
+Activate the virtual environment:
 
 **Windows:**
 ```bash
@@ -31,9 +34,11 @@ venv\Scripts\activate
 source venv/bin/activate
 ```
 
+---
+
 ### 3️⃣ Install Dependencies
 
-Pastikan sudah ada file `requirements.txt`, lalu jalankan:
+Make sure the `requirements.txt` file is available, then run:
 
 ```bash
 pip install -r requirements.txt
@@ -41,37 +46,37 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ Run Streamlit App
+## ▶️ Run the Streamlit App
 
-Masuk ke folder dashboard (jika perlu):
+Navigate to the dashboard folder (if needed):
 
 ```bash
 cd dashboard
 ```
 
-Jalankan aplikasi:
+Run the application:
 
 ```bash
 streamlit run dashboard.py
 ```
 
-Jika berhasil, akan muncul tampilan seperti ini:
+If successful, you will see something like:
 
 ```
 Local URL: http://localhost:8501
 ```
 
-Buka link tersebut di browser.
+Open the link in your browser.
 
 ---
 
-## 📊 Features
+## 📊 Dashboard Features
 
-- Peak hour rental analysis
-- Casual vs Registered comparison
-- Monthly rental trends
-- Bike recommendation system (rule-based)
-- Interactive dashboard filter
+- 📈 Peak and Low Rental Hour Analysis  
+- 👥 Casual vs Registered User Comparison  
+- 📅 Monthly Rental Trends  
+- 🌤 Rule-Based Bike Recommendation System  
+- 🎛 Interactive Date & Time Filters  
 
 ---
 
@@ -79,6 +84,7 @@ Buka link tersebut di browser.
 
 - Python
 - Pandas
-- Seaborn
+- NumPy
 - Matplotlib
+- Seaborn
 - Streamlit
